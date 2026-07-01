@@ -107,7 +107,8 @@ p{
     margin-bottom: var(--space-normal);
     text-align: center;
     /* color: #0d532d; */
-    color: #1363A2
+    /* color: #ffa620; */
+    color: #1363A2;
     /* color: #1d86cc; */
 }
 .pro-title h3{
@@ -116,7 +117,7 @@ p{
     margin-bottom: 3rem;
     text-align: center;
     /* color: #124418; */
-    color: #1363A2
+    color: #1363A2;
     /* color: #1d86cc; */
 }
 .pro-title h3+p {
@@ -172,15 +173,14 @@ p{
     gap:1rem;
 }
 .co ul li{
-    padding:1rem 1rem 1rem 0;
-    /* border-radius: 0.5rem; */
-    /* background-color: #dff2ff7a; */
-    border-bottom: 1px solid #00000098;
+    padding:1rem;
+    border-radius: 0.5rem;
+    background-color: #ffbd381b;
 }
 .co ul li h5{
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: #1363A2;
+    /* color: #1363A2; */
 }
 .certi-dl{
     display: grid;
