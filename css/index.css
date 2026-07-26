@@ -184,7 +184,7 @@ p{
 .co ul li{
     padding:1rem;
     border-radius: 0.5rem;
-    background-color: #ffbd381b;
+    background-color: #FBF4E6;
 }
 .co ul li h5{
     font-weight: 700;
@@ -237,8 +237,9 @@ p{
 
 .popup {
     margin-top: 6rem;
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-bottom: 6rem;
+    background-color: #ffbd381b;
     /* background:
     url(../img/pattern-check.png) repeat 0 0,
     url(../img/bg-box-80.jpg) no-repeat 0 calc(100% - 104px) / 100% 483px; */
@@ -305,7 +306,7 @@ p{
 
 
 .popup-txt-slider .swiper-slide {
-    background-color: #fbfbfb;
+    background-color: #FBF4E6;
 }
 
 .popup-img-slider .swiper-wrapper{
@@ -411,6 +412,11 @@ p{
 
 .pagination{
     margin-top: 1rem;
+}
+
+.pagination>span{
+    width:0.5rem;
+    height:0.5rem;
 }
 
 .pagination>span.swiper-pagination-bullet-active {

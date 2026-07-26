@@ -170,6 +170,19 @@
                                     <dd>사회복지학과</dd>
                                 </dl>
                             </section>
+                            <section class="certi co">
+                                <h4 class="pf1">Experience</h4>
+                                <dl class="certi-dl">
+                                    <dt>2021. 07 - 2022. 04</dt>
+                                    <dd class="fwb">폼드팡 베이커리</dd>
+                                    <dd></dd>
+                                </dl>
+                                <dl class="certi-dl">
+                                    <dt>2022. 04 - 2024. 10</dt>
+                                    <dd class="fwb">한스델리 음식점</dd>
+                                    <dd>홀 관리 및 주방보조</dd>
+                                </dl>
+                            </section>
                         </div>
                         <div class="expert" id="sec2">
                             <div class="exp-title">
@@ -416,6 +429,73 @@
                 </div>
             </div>
         </div>
+
+
+
+<!-- 여기 새로 슬라이드 형식으로 만들라고 하는거임 -->
+
+        <div class="poster-station">
+            <div class="swiper poster-img-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/poster1.jpg" alt="크리스마스 팝업">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/poster2.jpg" alt="poster2 팝업">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/poster3.jpg" alt="에그타르트 팝업">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/poster4.jpg" alt="나이키 팝업">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/poster5.jpg" alt="?팝업">
+                    </div>
+                </div>
+            </div>
+            <script>
+                const posterImgSlider = new Swiper(".poster-img-slider",{
+                    // centeredSlides: true,
+                    
+                    speed:7000,
+                    autoplay:{
+                        delay:0
+                    },
+                    loop:true,
+                    slidesPerView: 1.4,
+                    spaceBetween: 14,
+                    breakpoints: {
+                        320: {
+                        slidesPerView: 1.6,
+                        spaceBetween: 14
+                        },
+                        480: {
+                        slidesPerView: 1.6,
+                        spaceBetween: 14
+                        },
+                        1200: {
+                        slidesPerView: 1.7,
+                        spaceBetween: 20
+                        },
+                        1400: {
+                        slidesPerView: 2.2,
+                        spaceBetween: 20
+                        },
+                        1600: {
+                        slidesPerView: 2.7,
+                        spaceBetween: 20
+                        },
+                    }
+                })
+
+                posterImgSlider.on('slideChange', function () {
+                    // console.log(posterImgSlider.realIndex);
+                    posterSlider.slideTo(posterImgSlider.realIndex, 1000)
+                })
+            </script>
+        </div>
+
     
         <div class="banner" id="sec5">
             <div class="common-frame">
