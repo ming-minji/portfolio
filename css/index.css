@@ -35,7 +35,7 @@ p{
 }
 .common-frame{
     width:auto;
-    margin:0 3rem;
+    margin:0 5rem;
 }
 
 
@@ -264,6 +264,11 @@ p{
 
 .popup h2+p+p{
     text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.popup h2+p+p+p{
+    text-align: center;
     margin-bottom: 8rem;
 }
 
@@ -397,11 +402,19 @@ p{
     margin-bottom: 3rem;
 }
 .banner h2+p+p{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .banner h2+p+p+p{
     margin-bottom: 3rem;
+}
+
+.pagination{
+    margin-top: 1rem;
+}
+
+.pagination>span.swiper-pagination-bullet-active {
+    background: var(--point-color);
 }
 
 .detail {
@@ -424,7 +437,7 @@ p{
     text-align: center;
 }
 .detail h2+p+p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     text-align: center;
 }
 .detail h2+p+p+p{

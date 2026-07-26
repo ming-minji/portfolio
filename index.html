@@ -253,7 +253,8 @@
             <div class="common-frame">
                 <h2 class="pf1">POPUP DESIGNS</h2>
                 <p class="pf1">Highlight Key Information</p>
-                <p>500x500px 사이즈로 중요한 정보와 프로모션을 효과적으로 전달하고자 했습니다. <br>사용자의 시선을 자연스럽게 유도하여 콘텐츠 인지도를 높였습니다.</p>
+                <p>500x500px 사이즈로 중요한 정보와 프로모션을 효과적으로 전달하고자 했습니다.</p>
+                <p>사용자의 시선을 자연스럽게 유도하여 콘텐츠 인지도를 높였습니다.</p>
                 <div class="popup-contents">
                     <div class="popup-txt">
                         <div class="swiper popup-txt-slider">
@@ -420,7 +421,7 @@
             <div class="common-frame">
                 <h2 class="pf1">BANNER DESIGNS</h2>
                 <p class="pf1">Soft Touch, Clear Message</p>
-                <p>Hero배너를 1920x800px 사이즈 제작하여 사용자에게 친근하게 다가가는 디자인을 목표로, 따스한 감성과 아기자기한 요소를 조화롭게 담아냈습니다.</p>
+                <p>1920x800px 사이즈 제작하여 사용자에게 친근하게 다가가는 디자인을 목표로, 따스한 감성과 아기자기한 요소를 조화롭게 담아냈습니다.</p>
                 <p>시각적인 즐거움뿐만 아니라 브랜드의 핵심 메시지가 사용자에게 가장 쉽고 부드럽게 전달될 수 있도록 배치했습니다.</p>
                 <div class="swiper banner-slider">
                     <div class="swiper-wrapper">
@@ -443,6 +444,7 @@
                             <img src="./img/banner-5.jpg" alt="나이키 세일 배너">
                         </div>
                     </div>
+                    <div class="pagination"></div>
                 </div>
                 <script>
                     const bannerSlider = new Swiper(".banner-slider",{
@@ -450,8 +452,25 @@
                             delay:3000
                         },
                         speed:1000,
-                        loop:true
-                    })
+                        loop:true,
+
+                        // If we need pagination
+                        pagination: {
+                            el: '.pagination',
+                        },
+
+                        // Navigation arrows
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+
+                        // And if we need scrollbar
+                        scrollbar: {
+                            el: '.swiper-scrollbar',
+                        },
+                        });
+                    
                 </script>
             </div>
         </div>
